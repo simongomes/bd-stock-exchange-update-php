@@ -1,15 +1,15 @@
-#Dhaka & Chittagong Stock Exchange Update (DSE & CSE)
+# Dhaka & Chittagong Stock Exchange Update (DSE & CSE)
 
 A PHP library to fetch updates from Bangladesh share market, including Dhaka and Chittagong Stock Exchange (DSE & CSE).
 
 [DSE](https://www.dsebd.org), [CSE](http://www.cse.com.bd)
 
-##Installation
+## Installation
 Download the latest release.
 
 [![Latest Version](https://img.shields.io/badge/release-v1.0.0-blue.svg?longCache=true&style=for-the-badge)](#)
 
-####Usages
+#### Usages
 - Include the library
 ```php
 <?php
@@ -24,7 +24,7 @@ Download the latest release.
     print_r($BDShareMarket->getDSEData());
 ```
 
-####Output
+#### Output
 ```
 Array
 (
