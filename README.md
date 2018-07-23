@@ -7,7 +7,7 @@ A PHP library to fetch updates from Bangladesh share market, including Dhaka and
 ## Installation
 Download the latest release.
 
-[![Latest Version](https://img.shields.io/badge/release-v1.0.0-blue.svg?longCache=true&style=for-the-badge)](#)
+[![Latest Version](https://img.shields.io/badge/release-v1.0.0-blue.svg?longCache=true&style=for-the-badge)](https://github.com/gomessimon/bd-stock-exchange-update-php/releases/)
 
 #### Usages
 - Include the library
