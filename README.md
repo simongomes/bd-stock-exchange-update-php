@@ -105,6 +105,6 @@ Thanks goes to [Khyrul Alam](https://github.com/khyrulAlam) for the inspiration.
 
 ## License
 
-[![License](https://img.shields.io/github/license/mashape/apistatus.svg?longCache=true&style=for-the-badge)](http://opensource.org/licenses/MIT)
+[![License](https://img.shields.io/badge/License-MIT-green.svg?longCache=true&style=for-the-badge)](http://opensource.org/licenses/MIT)
 
 Copyright (c) 2018, <a href="https://simongomes.me" target="_blank">Simon Gomes</a>
