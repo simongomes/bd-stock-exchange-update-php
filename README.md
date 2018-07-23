@@ -16,7 +16,9 @@ Download the latest release.
     require __DIR__ . '/lib/autoload.php';  
     use Simon\BDShareMarket;
 ```
-- Create an object and call the necessary
+- Create an object and call the necessary methods
+ 
+ ##### To fetch the updated from DSE use following
 ```php
     $BDShareMarket = new BDShareMarket();
     
@@ -71,6 +73,35 @@ Array
         )
         ...
 ```
+<br>
+
+##### To fetch the updated for specific company from DSE use following
+
+```php    
+    // To print DSE data for specific company replace COMPANY_NAME
+    print_r($BDShareMarket->getDSECompanyData('COMPANY_NAME'));
+    
+```
+
+<br>
+
+ ##### To fetch the updated from CSE use following
+ 
+ ```php
+    print_r($BDShareMarket->getCSEData());
+ ```
+ 
+ <br>
+ 
+ ##### To fetch the updated for specific company from CSE use following
+ ```php
+    // To print CSE data for specific company replace COMPANY_NAME
+    print_r($BDShareMarket->getCSECompanyData('COMPANY_NAME'));
+ ```
+
+## Courtesy & Contributions
+
+Thanks goes to [Khyrul Alam](https://github.com/khyrulAlam) for the inspiration. A similar JavaScript library will be found here - [DSE-CSE-Market-Update JS Library](https://github.com/khyrulAlam/DSE-CSE-Market-Update) 
 
 ## License
 

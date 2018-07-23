@@ -13,7 +13,7 @@ print_r($BDShareMarket->getDSEData());
 //print_r($BDShareMarket->getDSECompanyData('COMPANY_NAME'));
 
 // To print CSE data enable this
-//print_r(json_encode($BDShareMarket->getCSEData()));
+//print_r($BDShareMarket->getCSEData());
 
 // To print CSE data for specific company replace COMPANY_NAME and enable this
 //print_r($BDShareMarket->getCSECompanyData('COMPANY_NAME'));
