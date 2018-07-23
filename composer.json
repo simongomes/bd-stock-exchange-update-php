@@ -1,0 +1,22 @@
+{
+    "name": "simon/bd-stock-exchange-update",
+    "description": "PHP library to fetch bangladesh share market updates, including Dhaka and Chittagong Stock Exchange (DSE & CSE).",
+    "type": "library",
+    "keywords": ["library", "bd stock exchange", "dse", "cse", "bd share market", "bangladesh", "bangladesh stock exchange", "bangladesh share market", "dhaka stock exchange", "chittagong stock exchange"],
+    "authors": [
+        {
+            "name": "Simon Gomes",
+            "email": "busy.s.simon@gmail.com",
+            "homepage": "https://simongomes.me/"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "license": "MIT",
+    "autoload": {
+        "files": ["lib/autoload.php"],
+        "psr-4": {
+            "Simon\\BDShareMarket\\": "lib/BDShareMarket"
+        }
+    }
+}
