@@ -5,6 +5,30 @@ A PHP library to fetch updates from Bangladesh share market, including Dhaka and
 [DSE](https://www.dsebd.org), [CSE](http://www.cse.com.bd)
 
 ## Installation
+- ##### Install using ```composer``` (or go to [Manual Installation](#manual-installation))
+```composer require simongomes/bd-stock-exchange-update```
+
+or, add the following into your ```composer.json``` file
+
+```
+"require": {
+        "simongomes/bd-stock-exchange-update": "^1.0"
+}
+```
+
+#### Usages
+
+```php
+<?php
+    require __DIR__ . '/vendor/autoload.php';
+    use Simon\BDShareMarket;
+    
+    $BDShareMarket = new BDShareMarket();
+    print_r($BDShareMarket->getDSEData());
+```
+
+- ##### Manual installation
+
 Download the latest release.
 
 [![Latest Version](https://img.shields.io/badge/release-v1.0.0-blue.svg?longCache=true&style=for-the-badge)](https://github.com/gomessimon/bd-stock-exchange-update-php/releases/)
@@ -20,10 +44,10 @@ Download the latest release.
  
  ##### To fetch the updated from DSE use following
 ```php
-    $BDShareMarket = new BDShareMarket();
-    
-    // this will print the DSE data
-    print_r($BDShareMarket->getDSEData());
+$BDShareMarket = new BDShareMarket();
+
+// this will print the DSE data
+print_r($BDShareMarket->getDSEData());
 ```
 
 #### Output
@@ -78,8 +102,8 @@ Array
 ##### To fetch the updated for specific company from DSE use following
 
 ```php    
-    // To print DSE data for specific company replace COMPANY_NAME
-    print_r($BDShareMarket->getDSECompanyData('COMPANY_NAME'));
+// To print DSE data for specific company replace COMPANY_NAME
+print_r($BDShareMarket->getDSECompanyData('COMPANY_NAME'));
     
 ```
 
@@ -88,15 +112,15 @@ Array
  ##### To fetch the updated from CSE use following
  
  ```php
-    print_r($BDShareMarket->getCSEData());
+print_r($BDShareMarket->getCSEData());
  ```
  
  <br>
  
  ##### To fetch the updated for specific company from CSE use following
  ```php
-    // To print CSE data for specific company replace COMPANY_NAME
-    print_r($BDShareMarket->getCSECompanyData('COMPANY_NAME'));
+// To print CSE data for specific company replace COMPANY_NAME
+print_r($BDShareMarket->getCSECompanyData('COMPANY_NAME'));
  ```
 
 ## Courtesy & Contributions

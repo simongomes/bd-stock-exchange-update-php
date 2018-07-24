@@ -1,7 +1,7 @@
 <?php
 /**
  * Author: Simon Gomes
- * Author URL: http://busysimon.com
+ * Author URL: https://simongomes.me
  */
 
 namespace Simon;

@@ -1,9 +1,7 @@
 <?php
 /**
- * Created by PhpStorm.
- * User: SIMON
- * Date: 7/16/2018
- * Time: 6:14 PM
+ * Author: Simon Gomes
+ * Author URL: https://simongomes.me
  */
 
 namespace Simon;
