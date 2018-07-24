@@ -1,5 +1,5 @@
 {
-    "name": "simon/bd-stock-exchange-update",
+    "name": "simongomes/bd-stock-exchange-update",
     "description": "PHP library to fetch bangladesh share market updates, including Dhaka and Chittagong Stock Exchange (DSE & CSE).",
     "type": "library",
     "keywords": ["library", "bd stock exchange", "dse", "cse", "bd share market", "bangladesh", "bangladesh stock exchange", "bangladesh share market", "dhaka stock exchange", "chittagong stock exchange"],
